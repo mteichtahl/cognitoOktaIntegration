@@ -1,0 +1,36 @@
+<HTML>
+
+  <HEAD>
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="node_modules/aws-sdk/dist/aws-sdk.min.js"></script>
+    <script src="node_modules/amazon-cognito-js/dist/amazon-cognito.min.js"></script>
+    <script src="https://ok1static.oktacdn.com/assets/js/sdk/okta-auth-js/1.5.0/OktaAuth.min.js" type="text/javascript"></script>
+
+    <script language="JavaScript" type="text/javascript" src="https://kjur.github.io/jsrsasign/jsrsasign-latest-all-min.js">
+</script>
+    <script src="app.js"></script>
+  </HEAD>
+
+  <BODY>
+
+    <H1 id="loggedInState"></H1>
+    <hr>
+    <div id="oktaInfo" style="display:none">
+      <h1>ocktaSessionToken</h1>
+      <p id="ocktaSessionToken">None</p> 
+      <h1>ocktaIdToken</h1>
+      <p id="ocktaIdToken">None</p> 
+      <hr>
+    </div>
+    <div id="cognitoInfo" style="display:none">
+      <h1>cognito</h1>
+      <p id="cognitoIdentityId">None</p> 
+      <p id="cognito">None</p> 
+    </div>
+ 
+    
+
+  </BODY>
+
+</HTML>
